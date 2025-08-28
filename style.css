@@ -34,6 +34,12 @@ a:hover { opacity:.9; }
   padding:24px;
 }
 
+ul, ol {
+  list-style-position: inside;
+  padding-left: 0; /* remove default extra indent */
+  text-align: center; /* keep them centered */
+}
+
 .site-header {
   position:sticky;
   top:0;
