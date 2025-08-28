@@ -35,15 +35,21 @@ header nav a.button {
   font-size: 3em;
 }
 
-.button {
+.button, header nav a.button {
   display: inline-block;
-  background: #007BFF;
+  background: #007BFF;   /* your original blue */
   color: white;
   padding: 10px 20px;
   margin-top: 10px;
   text-decoration: none;
   border-radius: 6px;
+  transition: 0.2s ease;
 }
+
+.button:hover, header nav a.button:hover {
+  background: #0056b3;   /* darker blue on hover */
+}
+
 
 /* About Section */
 .about-flex {
@@ -51,9 +57,15 @@ header nav a.button {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin-top: 20px;
+  margin-top: 40px;  /* moved section lower */
   flex-wrap: wrap;
+  text-align: left;  /* keeps your text aligned properly */
 }
+
+.about-text {
+  max-width: 500px;
+}
+
 
 .about-photo img {
   width: 200px;
@@ -76,4 +88,8 @@ header nav a.button {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section {
+  padding: 80px 20px;  /* adds space around all sections */
 }
