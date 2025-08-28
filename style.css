@@ -5,8 +5,8 @@
   --text:#e5e7eb;
   --muted:#9ca3af;
   --primary:#3b82f6; /* main blue */
-  --accent:#22c55e;  /* green accent */
-  --link:#38bdf8;    /* lighter blue */
+  --accent:#22c55e;
+  --link:#38bdf8;
 }
 
 /* Reset & base */
@@ -17,6 +17,7 @@ html,body {
   background:var(--bg);
   color:var(--text);
   font-family:Inter,system-ui,Arial,sans-serif;
+  text-align:center; /* ✅ center all text by default */
 }
 
 a {
@@ -44,7 +45,8 @@ a:hover { opacity:.9; }
 .nav {
   display:flex;
   align-items:center;
-  justify-content:space-between;
+  justify-content:center; /* ✅ navbar links centered */
+  gap:20px;
 }
 .logo {
   font-weight:800;
@@ -52,9 +54,10 @@ a:hover { opacity:.9; }
   background:linear-gradient(90deg,#38bdf8,#22c55e);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
+  margin-right:auto;
+  margin-left:auto;
 }
 .nav a {
-  margin-left:16px;
   color:#fff;
 }
 .nav a.active {
@@ -64,7 +67,6 @@ a:hover { opacity:.9; }
 
 /* Resume button in navbar */
 .nav a.button {
-  margin-left:16px;
   background:var(--primary);
   border-radius:10px;
   padding:10px 16px;
@@ -84,7 +86,7 @@ a:hover { opacity:.9; }
   transition:0.2s ease;
 }
 .button:hover {
-  background:#2563eb; /* darker blue */
+  background:#2563eb;
 }
 .button.outline {
   background:transparent;
@@ -94,7 +96,6 @@ a:hover { opacity:.9; }
 /* Hero / headings */
 .hero {
   padding:96px 24px;
-  text-align:center;
 }
 .title {
   font-size:56px;
@@ -117,6 +118,7 @@ a:hover { opacity:.9; }
   display:grid;
   grid-template-columns:1fr;
   gap:24px;
+  justify-items:center; /* ✅ centers content inside rows */
 }
 @media (min-width:900px){
   .row { grid-template-columns:1fr 1fr; }
@@ -138,6 +140,7 @@ a:hover { opacity:.9; }
   display:flex;
   flex-wrap:wrap;
   gap:8px;
+  justify-content:center; /* ✅ pills centered */
 }
 .pill {
   background:#0b1220;
@@ -152,7 +155,7 @@ a:hover { opacity:.9; }
   display:grid;
   gap:24px;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  justify-items:center; /* center cards */
+  justify-items:center; /* ✅ center cards */
 }
 .card {
   background:var(--card);
@@ -160,6 +163,7 @@ a:hover { opacity:.9; }
   border-radius:16px;
   overflow:hidden;
   max-width:320px;
+  text-align:center; /* ✅ card text centered */
 }
 .card img {
   width:100%;
