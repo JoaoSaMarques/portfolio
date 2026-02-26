@@ -1,0 +1,67 @@
+@inherits LayoutComponentBase
+
+<PageTitle>Game Dev Portfolio</PageTitle>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<!-- outer wrapper ensures footer at bottom and full width -->
+<div class="page-wrapper">
+    <header class="site-header w-full">
+        <div class="site-header-inner">
+        <a href="/" class="site-logo" aria-label="Home">
+            João Sã&nbsp;Marques
+        </a>
+
+        <button class="site-nav-toggle"
+                type="button"
+                @onclick="ToggleNav"
+                aria-controls="site-nav"
+                aria-expanded="@navOpen">
+            <span class="sr-only">Toggle navigation</span>
+            <svg class="site-nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
+        </button>
+
+        <nav id="site-nav" class="site-nav @(navOpen ? "open" : "")" aria-label="Primary navigation">
+            <NavLink href="/" Match="NavLinkMatch.All" class="site-nav-link" ActiveClass="active" @onclick="CloseNav">
+                Home
+            </NavLink>
+            <NavLink href="about" class="site-nav-link" ActiveClass="active" @onclick="CloseNav">
+                About
+            </NavLink>
+            <NavLink href="projects" class="site-nav-link" ActiveClass="active" @onclick="CloseNav">
+                Projects
+            </NavLink>
+            <NavLink href="contact" class="site-nav-link" ActiveClass="active" @onclick="CloseNav">
+                Contact
+            </NavLink>
+            <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="site-nav-cta">
+                Resume
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content" class="site-main flex-1" tabindex="-1">
+    @Body
+</main>
+
+<footer class="site-footer w-full">
+    <div class="site-footer-inner">
+        <span>© @(DateTime.Now.Year) João Sã&nbsp;Marques</span>
+        <span class="site-footer-sep" aria-hidden="true">•</span>
+        <a class="site-footer-link" href="https://github.com/JoaoSaMarques" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="site-footer-link" href="https://www.linkedin.com/in/joaosamarques" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="site-footer-link" href="mailto:joao.sa.marques@hotmail.com">Email</a>
+    </div>
+</footer>
+</div> <!-- end page wrapper -->
+
+@code {
+    private bool navOpen;
+
+    private void ToggleNav() => navOpen = !navOpen;
+
+    private void CloseNav() => navOpen = false;
+}

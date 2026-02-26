@@ -1,0 +1,132 @@
+@page "/projects"
+@inject HttpClient Http
+
+<PageTitle>Projects</PageTitle>
+
+<section class="section">
+    <h1 class="section-title">Featured projects</h1>
+    <p class="section-intro">
+        A selection of games and interactive pieces exploring mood, atmosphere, and playful mechanics.
+    </p>
+
+    @if (projects is null)
+    {
+        <p><em>Loading projects...</em></p>
+    }
+    else
+    {
+        <div class="projects-grid">
+            @foreach (var project in projects)
+            {
+                <article class="project-card" @onclick="() => OpenProject(project)">
+                    <img src="@project.Thumbnail" alt="@project.Title" class="project-image" />
+                    <div class="project-body">
+                        <h2>@project.Title</h2>
+                        <p>@project.ShortDescription</p>
+                        <span class="project-cta">View details</span>
+                    </div>
+                </article>
+            }
+        </div>
+    }
+</section>
+
+<section class="section section-last">
+    <h2 class="section-heading">Art</h2>
+
+    @if (artworks is null)
+    {
+        <p><em>Loading art...</em></p>
+    }
+    else
+    {
+        <div class="art-grid">
+            @foreach (var art in artworks)
+            {
+                <article class="art-card" @onclick="() => OpenArt(art)">
+                    <img src="@art.Thumbnail" alt="@art.Title" class="project-image" />
+                    <div class="project-body">
+                        <h3>@art.Title</h3>
+                        <span class="project-cta">Expand image</span>
+                    </div>
+                </article>
+            }
+        </div>
+    }
+</section>
+
+@if (activeProject is not null)
+{
+    <div class="modal-backdrop" @onclick="CloseProject">
+        <div class="modal" @onclick="StopClick">
+            <img src="@activeProject.HeroImage" alt="@activeProject.Title" class="modal-image" />
+            <h2>@activeProject.Title</h2>
+            <p>@activeProject.LongDescription</p>
+
+            @if (!string.IsNullOrWhiteSpace(activeProject.Link))
+            {
+                <a href="@activeProject.Link" target="_blank" class="modal-primary">
+                    Visit site
+                </a>
+            }
+
+            <button class="modal-close" @onclick="CloseProject">Close</button>
+        </div>
+    </div>
+}
+
+@if (activeArt is not null)
+{
+    <div class="modal-backdrop" @onclick="CloseArt">
+        <div class="modal" @onclick="StopClick">
+            <img src="@activeArt.HeroImage" alt="@activeArt.Title" class="modal-image" />
+            <p>@activeArt.Description</p>
+            <button class="modal-close" @onclick="CloseArt">Close</button>
+        </div>
+    </div>
+}
+
+@code {
+    private List<Project>? projects;
+    private List<ArtPiece>? artworks;
+    private Project? activeProject;
+    private ArtPiece? activeArt;
+
+    private void OpenProject(Project project) => activeProject = project;
+    private void CloseProject() => activeProject = null;
+
+    private void OpenArt(ArtPiece art) => activeArt = art;
+    private void CloseArt() => activeArt = null;
+
+    private void StopClick(MouseEventArgs _)
+    {
+        // Prevent clicks inside modal from closing it
+    }
+
+    private sealed class Project
+    {
+        public string Slug { get; set; } = "";
+        public string Title { get; set; } = "";
+        public string Thumbnail { get; set; } = "";
+        public string HeroImage { get; set; } = "";
+        public string ShortDescription { get; set; } = "";
+        public string LongDescription { get; set; } = "";
+        public string Link { get; set; } = "";
+    }
+
+    private sealed class ArtPiece
+    {
+        public string Slug { get; set; } = "";
+        public string Title { get; set; } = "";
+        public string Thumbnail { get; set; } = "";
+        public string HeroImage { get; set; } = "";
+        public string Description { get; set; } = "";
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await Http.GetFromJsonAsync<List<Project>>("data/projects.json");
+        artworks = await Http.GetFromJsonAsync<List<ArtPiece>>("data/art.json");
+    }
+}
+
