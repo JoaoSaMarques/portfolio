@@ -81,18 +81,39 @@ Example, if you want to add a project 7 after the project 6, the current layout 
 
 ### Deploying
 
-#### Manual
+#### One time only
 
-##### 1. Run this in your project root:
+You only have to do this one time (unless you massively change the project). (Editing `json`s doesn't count as changing the project).
+
+##### 1. Run this inside of the Project folder:
 
 `dotnet publish -c Release -o publish`
 
-This puts the ready-to-serve site in publish/wwwroot.
+This puts the ready-to-serve site in `publish/wwwroot`.
 
-##### 2. Take everything inside publish/wwwroot and push it to a gh-pages branch (not the repo root).
+##### 2. Take everything inside publish/wwwroot and push it ALONE (ON ITS OWN) to a NEW branch (not the repo root).
 
-Make sure GitHub Pages is serving from gh-pages branch → / folder (you can set this in repo settings).
+##### 3. Make that branch the main one and move this one to source
+
+`git checkout main`
+
+`git checkout -b source`
+
+`git push origin source`
+
+Then, whatever name of your branch:
+
+`git checkout yourbranch`
+
+`git branch -f main`
+
+Because you're rewriting history, you need to force push:
+
+`git push origin main --force`
 
 #### Automatic
 
-I've included a workflow that does this for you so you don't have to rebuild everytime. All you have to do is make sure the contents of `.github/workflows` are in the branch called `main`. I did that for you, your old work is on `old` in case you need it for anything. 
+After doing the first deployment, you can directly edit the `json` files on the main branch without needing to redeploy. The workflow I've included does it for you.
+
+BTW: Your old work is on a branch called `old` in case you need it for anything. 
+
