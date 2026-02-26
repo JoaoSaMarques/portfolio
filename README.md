@@ -1,7 +1,10 @@
 # Portfolio
 
 ## Index
-
+1. [Projects](#projects)
+2. [Art](#art)
+3. [Manual Deploying](#manual)
+4. [Workflow Deploying](#automatic)
 
 ## How to work with this:
 
@@ -92,37 +95,4 @@ Make sure GitHub Pages is serving from gh-pages branch → / folder (you can set
 
 #### Automatic
 
-I've included a workflow that does this for you so you don't have to rebuild everytime. All you have to do is make sure the contents of `.github/workflows` are in the main branch, but that's solved by making this branch the main one. If you want to keep the old work you had, you can follow these steps:
-
-##### 1. Make sure you're up to date
-`git fetch origin`
-
-##### 2. Create the backup branch (old) from current main
-
-First, switch to main:
-
-`git checkout main`
-
-Then create the new branch:
-
-`git checkout -b old`
-
-Push it if you want it on the remote:
-
-`git push origin old`
-
-##### 3. Replace main with the contents of source
-
-Now go to the source branch:
-
-`git checkout source`
-
-And force main to point to whatever source currently is:
-
-`git branch -f main`
-
-##### 4. Push the new main to remote (force push required)
-
-Because you're rewriting history, you need to force push:
-
-`git push origin main --force`
+I've included a workflow that does this for you so you don't have to rebuild everytime. All you have to do is make sure the contents of `.github/workflows` are in the branch called `main`. I did that for you, your old work is on `old` in case you need it for anything. 
