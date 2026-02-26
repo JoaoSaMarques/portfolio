@@ -3,8 +3,8 @@
 ## Index
 1. [Projects](#projects)
 2. [Art](#art)
-3. [Manual Deploying](#manual)
-4. [Workflow Deploying](#automatic)
+3. [Deploying](#one-time-only)
+4. [Workflow](#automatic)
 
 ## How to work with this:
 
@@ -116,4 +116,5 @@ Because you're rewriting history, you need to force push:
 After doing the first deployment, you can directly edit the `json` files on the main branch without needing to redeploy. The workflow I've included does it for you.
 
 BTW: Your old work is on a branch called `old` in case you need it for anything. 
+
 
