@@ -37,5 +37,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: Portfolio/publish/wwwroot/portfolio
-          destination_branch: main   
+          publish_branch: main   
+
           force_orphan: true
