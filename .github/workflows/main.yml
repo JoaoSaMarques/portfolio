@@ -28,7 +28,7 @@ jobs:
 
       # 3. Restore + publish
       - name: Restore dependencies
-        run: dotnet clean Portfolio/Portfolio.csproj
+        run: dotnet restore Portfolio/Portfolio.csproj
 
       - name: Build & publish
         run: dotnet publish Portfolio/Portfolio.csproj -c Release -o publish
@@ -61,5 +61,6 @@ jobs:
           git rm -r Portfolio/publish
           git commit -m "remove publish folder from source [skip ci]" || echo "No changes"
           git push origin source
+
 
 
