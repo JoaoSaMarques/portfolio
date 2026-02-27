@@ -2,8 +2,8 @@
   {
     "slug": "drawing-1",
     "title": "Selected drawing",
-    "thumbnail": "/assets/drawing1.jpg",
-    "heroImage": "/assets/drawing1.jpg",
+    "thumbnail": "assets/drawing1.jpg",
+    "heroImage": "assets/drawing1.jpg",
     "description": "Extended view of one of my drawings."
   }
 ]

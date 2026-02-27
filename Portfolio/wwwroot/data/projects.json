@@ -2,8 +2,8 @@
   {
     "slug": "blacksmiths-revenge",
     "title": "A Blacksmith's Revenge",
-    "thumbnail": "/assets/project1.jpg",
-    "heroImage": "/assets/project1.jpg",
+    "thumbnail": "assets/project1.jpg",
+    "heroImage": "assets/project1.jpg",
     "shortDescription": "First-person VR tower defense where you fortify your home and face waves of adventurers.",
     "longDescription": "A Blacksmith's Revenge is a first-person VR tower defense experience. You place traps, fortify your home, and fight off waves of adventurers who underestimate the blacksmith they're raiding.",
     "link": "https://francisco-anjos.itch.io/blacksmiths-revenge"
@@ -11,8 +11,8 @@
   {
     "slug": "agrunare",
     "title": "Agrunare",
-    "thumbnail": "/assets/project2.jpg",
-    "heroImage": "/assets/project2.jpg",
+    "thumbnail": "assets/project2.jpg",
+    "heroImage": "assets/project2.jpg",
     "shortDescription": "A mix of FPS and deck-building where you hack through surreal digital landscapes.",
     "longDescription": "Agrunare blends first-person shooting with deck-building. You play as a hacker entering digital landscapes, equipping different programs (abilities) to defeat hostile viruses in a shifting virtual world.",
     "link": "https://vife.itch.io/agrunare"
@@ -20,8 +20,8 @@
   {
     "slug": "project-myth",
     "title": "Project Myth",
-    "thumbnail": "/assets/project3.jpg",
-    "heroImage": "/assets/project3.jpg",
+    "thumbnail": "assets/project3.jpg",
+    "heroImage": "assets/project3.jpg",
     "shortDescription": "Explore an abandoned library at night as a contemporary artist.",
     "longDescription": "Project Myth is a mood‑driven experience where you play a contemporary artist visiting an abandoned library at night. The focus is on atmosphere, environmental storytelling, and subtle unease instead of jumpscares.",
     "link": "https://johnghostkiller.itch.io/project-myth"
@@ -29,8 +29,8 @@
   {
     "slug": "mythbreaker",
     "title": "MythBreaker",
-    "thumbnail": "/assets/project4.jpg",
-    "heroImage": "/assets/project4.jpg",
+    "thumbnail": "assets/project4.jpg",
+    "heroImage": "assets/project4.jpg",
     "shortDescription": "Third-person hack ’n’ slash RPG about breaking myths through combat.",
     "longDescription": "MythBreaker is a third‑person hack ’n’ slash RPG where you fight waves of enemies using fast, expressive combat. The project explores character‑driven action and stylized, myth‑inspired visuals.",
     "link": "https://github.com/Evil-Kitten-Corp/Mythbreaker"
@@ -38,8 +38,8 @@
   {
     "slug": "project-5",
     "title": "Project 5",
-    "thumbnail": "/assets/project5.jpg",
-    "heroImage": "/assets/project5.jpg",
+    "thumbnail": "assets/project5.jpg",
+    "heroImage": "assets/project5.jpg",
     "shortDescription": "Short description of the project.",
     "longDescription": "An additional project slot reserved for future work. This space will host another piece combining art, design, and interactive storytelling.",
     "link": "https://example.com"
@@ -47,8 +47,8 @@
   {
     "slug": "project-6",
     "title": "Project 6",
-    "thumbnail": "/assets/project6.jpg",
-    "heroImage": "/assets/project6.jpg",
+    "thumbnail": "assets/project6.jpg",
+    "heroImage": "assets/project6.jpg",
     "shortDescription": "Short description of the project.",
     "longDescription": "Another placeholder project for upcoming experiments in visual design, prototypes, or collaborations.",
     "link": "https://example.com"

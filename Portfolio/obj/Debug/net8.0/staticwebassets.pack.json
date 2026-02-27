@@ -1,95 +1,95 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\obj\\Debug\\net8.0\\compressed\\ebnhinbgz2.gz",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\obj\\Debug\\net8.0\\compressed\\ebnhinbgz2.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Portfolio.styles.css",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Portfolio.styles.css",
       "PackagePath": "staticwebassets\\Portfolio.styles.css"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\404.html",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\404.html",
       "PackagePath": "staticwebassets\\404.html"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\drawing1.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\drawing1.jpg",
       "PackagePath": "staticwebassets\\assets\\drawing1.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\profile.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\profile.jpg",
       "PackagePath": "staticwebassets\\assets\\profile.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\project1.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\project1.jpg",
       "PackagePath": "staticwebassets\\assets\\project1.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\project2.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\project2.jpg",
       "PackagePath": "staticwebassets\\assets\\project2.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\project3.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\project3.jpg",
       "PackagePath": "staticwebassets\\assets\\project3.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\project4.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\project4.jpg",
       "PackagePath": "staticwebassets\\assets\\project4.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\project5.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\project5.jpg",
       "PackagePath": "staticwebassets\\assets\\project5.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\project6.jpg",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\project6.jpg",
       "PackagePath": "staticwebassets\\assets\\project6.jpg"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\assets\\resume.pdf",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\assets\\resume.pdf",
       "PackagePath": "staticwebassets\\assets\\resume.pdf"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\css\\input.css",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\css\\input.css",
       "PackagePath": "staticwebassets\\css\\input.css"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\css\\output.css",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\css\\output.css",
       "PackagePath": "staticwebassets\\css\\output.css"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\data\\art.json",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\data\\art.json",
       "PackagePath": "staticwebassets\\data\\art.json"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\data\\projects.json",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\data\\projects.json",
       "PackagePath": "staticwebassets\\data\\projects.json"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\wwwroot\\index.html",
+      "Id": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

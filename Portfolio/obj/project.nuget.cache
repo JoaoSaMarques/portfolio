@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uHBb9uxF3fk=",
+  "dgSpecHash": "D9GAX22+Kag=",
   "success": true,
-  "projectFilePath": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolio\\Portfolio\\Portfolio.csproj",
+  "projectFilePath": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\Portfolio.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\UmaGa\\.nuget\\packages\\blazorwasmbrotliloader.build\\1.0.1\\blazorwasmbrotliloader.build.1.0.1.nupkg.sha512",
     "C:\\Users\\UmaGa\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\UmaGa\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",
     "C:\\Users\\UmaGa\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.10\\microsoft.aspnetcore.components.analyzers.8.0.10.nupkg.sha512",
@@ -30,6 +31,7 @@
     "C:\\Users\\UmaGa\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.10\\microsoft.jsinterop.webassembly.8.0.10.nupkg.sha512",
     "C:\\Users\\UmaGa\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.10\\microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
     "C:\\Users\\UmaGa\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.10\\microsoft.net.sdk.webassembly.pack.8.0.10.nupkg.sha512",
+    "C:\\Users\\UmaGa\\.nuget\\packages\\publishspaforgithubpages.build\\3.0.1\\publishspaforgithubpages.build.3.0.1.nupkg.sha512",
     "C:\\Users\\UmaGa\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\UmaGa\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.10.nupkg.sha512"
   ],

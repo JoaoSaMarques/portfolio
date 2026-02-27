@@ -8,20 +8,9 @@
 <div class="page-wrapper">
     <header class="site-header w-full">
         <div class="site-header-inner">
-        <a href="/" class="site-logo" aria-label="Home">
+        <a href="" class="site-logo" aria-label="Home">
             João Sã&nbsp;Marques
         </a>
-
-        <button class="site-nav-toggle"
-                type="button"
-                @onclick="ToggleNav"
-                aria-controls="site-nav"
-                aria-expanded="@navOpen">
-            <span class="sr-only">Toggle navigation</span>
-            <svg class="site-nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M4 7h16M4 12h16M4 17h16" />
-            </svg>
-        </button>
 
         <nav id="site-nav" class="site-nav @(navOpen ? "open" : "")" aria-label="Primary navigation">
             <NavLink href="/" Match="NavLinkMatch.All" class="site-nav-link" ActiveClass="active" @onclick="CloseNav">
@@ -36,7 +25,7 @@
             <NavLink href="contact" class="site-nav-link" ActiveClass="active" @onclick="CloseNav">
                 Contact
             </NavLink>
-            <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="site-nav-cta">
+            <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="site-nav-cta">
                 Resume
             </a>
         </nav>
