@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           lfs: true
+          ref: source
+          fetch-depth: 0
 
       # 2. Set up .NET
       - name: Setup .NET
@@ -31,12 +33,17 @@ jobs:
       - name: Build & publish
         run: dotnet publish Portfolio/Portfolio.csproj -c Release -o publish
 
+      - name: Copy portfolio contents
+        run: |
+          mkdir deploy
+          cp -r Portfolio/publish/wwwroot/portfolio/* deploy/
+
       # 4. Push wwwroot/portfolio to main 
       - name: Deploy to main
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: Portfolio/publish/wwwroot/portfolio
+          publish_dir: ./deploy
           publish_branch: main   
+          force_orphan: false
 
-          force_orphan: true
