@@ -1023,9 +1023,6 @@
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/hkfq988c60-{0}-tptq2av103-tptq2av103.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/0ycsysxcnt-{0}-lfu7j35m59-lfu7j35m59.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/x6vscbo5hh-{0}-oyz0vx2fzb-oyz0vx2fzb.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-kfz52gx7up-kfz52gx7up.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-lmqdgeiw8d-lmqdgeiw8d.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-w0azyn6jvz-w0azyn6jvz.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/staticwebassets.build.json
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/staticwebassets.build.json.cache
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/staticwebassets.development.json
@@ -1036,3 +1033,6 @@
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/refint/Portfolio.dll
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/Portfolio.pdb
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/ref/Portfolio.dll
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-in3djqcsgk-in3djqcsgk.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-b2s61xu12o-b2s61xu12o.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-ajsarkedkh-ajsarkedkh.gz
