@@ -1,25 +1,41 @@
-name: Publish site with LFS
+name: Build and Publish Blazor
 
 on:
   push:
     branches:
-      - master
+      - source  
 
 permissions:
   contents: write
 
 jobs:
-  publish:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo with LFS
+      # 1. Check out the source branch
+      - name: Checkout source
         uses: actions/checkout@v3
         with:
           lfs: true
 
-      - name: Push site to gh-pages
+      # 2. Set up .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'  
+
+      # 3. Restore + publish
+      - name: Restore dependencies
+        run: dotnet restore Portfolio/Portfolio.csproj
+
+      - name: Build & publish
+        run: dotnet publish Portfolio/Portfolio.csproj -c Release -o publish
+
+      # 4. Push wwwroot/portfolio to main 
+      - name: Deploy to main
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .   
+          publish_dir: Portfolio/publish/wwwroot/portfolio
+          destination_branch: main   
           force_orphan: true
