@@ -44,7 +44,7 @@ jobs:
       - name: Copy portfolio contents
         run: |
           mkdir deploy
-          cp -r Portfolio/publish/wwwroot/portfolio/* deploy/
+          cp -r publish/wwwroot/portfolio/* deploy/
 
       # 4. Push wwwroot/portfolio to main 
       - name: Deploy to main
@@ -58,9 +58,10 @@ jobs:
       - name: Delete publish
         run: |
           git checkout source
-          git rm -r Portfolio/publish
+          git rm -r publish
           git commit -m "remove publish folder from source [skip ci]" || echo "No changes"
           git push origin source
+
 
 
 
