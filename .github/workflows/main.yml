@@ -55,12 +55,20 @@ jobs:
           publish_branch: main   
           force_orphan: false
 
+      - name: Deploy to gh pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          force_orphan: false
+
       - name: Delete publish
         run: |
           git checkout source
           git rm -r publish
           git commit -m "remove publish folder from source [skip ci]" || echo "No changes"
           git push origin source
+
 
 
 
