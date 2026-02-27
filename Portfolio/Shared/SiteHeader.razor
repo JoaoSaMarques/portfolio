@@ -9,7 +9,7 @@
 
         <!-- Nav links -->
         <nav id="site-nav" class="site-nav">
-            <NavLink href="" Match="NavLinkMatch.All" class="site-nav-link">Home</NavLink>
+            <a class="site-nav-link" @onclick="@GoHome">Home</a>
             <NavLink href="about" class="site-nav-link">About</NavLink>
             <NavLink href="projects" class="site-nav-link">Projects</NavLink>
             <NavLink href="contact" class="site-nav-link">Contact</NavLink>
@@ -21,6 +21,6 @@
 @code {
     void GoHome()
     {
-        Nav.NavigateTo("", forceLoad: false);
+        Nav.NavigateTo("", forceLoad: true);
     }
 }
