@@ -26,6 +26,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/Pages/About.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,13 +46,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/Shared/SiteFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpdGVGb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/Shared/SiteHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpdGVIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-xn2l5aia1e
 
 [C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
