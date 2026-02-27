@@ -10,6 +10,16 @@ html, body {
     color: #e5e7eb;
 }
 
+:root {
+    --neon-cyan: #38bdf8;
+    --neon-lime: #22c55e;
+    --neon-violet: #a855f7;
+    --ink: #020617;
+    --panel: rgba(2, 6, 23, 0.66);
+    --panel-strong: rgba(2, 6, 23, 0.92);
+    --stroke: #1f2937;
+}
+
 a {
     color: inherit;
 }
