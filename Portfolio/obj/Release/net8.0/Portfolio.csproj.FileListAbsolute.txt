@@ -1033,6 +1033,6 @@
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/refint/Portfolio.dll
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/Portfolio.pdb
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/ref/Portfolio.dll
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-8qby20jv36-8qby20jv36.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-podtegu1vn-podtegu1vn.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-kcl5n4us6f-kcl5n4us6f.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-qx9ee31y4m-qx9ee31y4m.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-q03x0j4ou4-q03x0j4ou4.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-gv59gthskl-gv59gthskl.gz
