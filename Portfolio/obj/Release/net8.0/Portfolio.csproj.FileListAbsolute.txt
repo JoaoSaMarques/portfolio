@@ -1033,6 +1033,6 @@
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/sfxwqfx42k-{0}-er8avzl4gu-er8avzl4gu.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/ulgckrb2gy-{0}-05k3ehe6n2-05k3ehe6n2.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/wkuttfddw8-{0}-tyf228z45b-tyf228z45b.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-fqzo96lx8j-fqzo96lx8j.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-7ib4vhimav-7ib4vhimav.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-yu9l7k256s-yu9l7k256s.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-g74gr49d6e-g74gr49d6e.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-r32f0jyvj1-r32f0jyvj1.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-fntxwot7lj-fntxwot7lj.gz
