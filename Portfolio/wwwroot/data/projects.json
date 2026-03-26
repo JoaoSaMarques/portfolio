@@ -37,21 +37,39 @@
   },
   {
     "slug": "project-5",
-    "title": "Project 5",
+    "title": "The Last Samurai",
     "thumbnail": "assets/project5.jpg",
     "heroImage": "assets/project5.jpg",
-    "shortDescription": "Short description of the project.",
-    "longDescription": "An additional project slot reserved for future work. This space will host another piece combining art, design, and interactive storytelling.",
-    "link": "https://example.com"
+    "shortDescription": "1st University Project.",
+    "longDescription": "A project I created by myself in my first few months of university..",
+    "link": "https://johnghostkiller.itch.io/the-last-samurai"
   },
   {
     "slug": "project-6",
-    "title": "Project 6",
+    "title": "Mechs VS Dragons",
     "thumbnail": "assets/project6.jpg",
     "heroImage": "assets/project6.jpg",
-    "shortDescription": "Short description of the project.",
-    "longDescription": "Another placeholder project for upcoming experiments in visual design, prototypes, or collaborations.",
-    "link": "https://example.com"
+    "shortDescription": "Bitsy game test.",
+    "longDescription": "A small pixel game to test bitsy!",
+    "link": "https://johnghostkiller.itch.io/game-test-mechs-vs-dragons"
+  },
+  {
+    "slug": "project-7",
+    "title": "University Tank Game",
+    "thumbnail": "assets/project7.jpg",
+    "heroImage": "assets/project7.jpg",
+    "shortDescription": "Small University project to test using assets",
+    "longDescription": "Using existing assets, we were to create our own version of tank rumble. (I want to make a starcraft themed one in the future)",
+    "link": "https://johnghostkiller.itch.io/tankrumble"
+  },
+  {
+    "slug": "project-8",
+    "title": "University Radio Controller",
+    "thumbnail": "assets/project8.jpg",
+    "heroImage": "assets/project8.jpg",
+    "shortDescription": "Radio used as a controller to play a game.",
+    "longDescription": "A short game created to use a controller made by me and my two other classmates.",
+    "link": "https://johnghostkiller.itch.io/radio-controller"
   }
 ]
 
