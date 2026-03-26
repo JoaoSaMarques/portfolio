@@ -53,7 +53,7 @@
     "thumbnail": "assets/drawing7.jpg",
     "heroImage": "assets/drawing7.jpg",
     "description": "https://www.artstation.com/artwork/zxRL3m - Full page"
-  }
+  },
 
   {
     "slug": "drawing-8",
@@ -61,6 +61,30 @@
     "thumbnail": "assets/drawing8.jpg",
     "heroImage": "assets/drawing8.jpg",
     "description": "https://www.artstation.com/artwork/KODd4W - Full page"
+  },
+
+  {
+    "slug": "drawing-9",
+    "title": "Onyx",
+    "thumbnail": "assets/drawing9.jpg",
+    "heroImage": "assets/drawing9.jpg",
+    "description": "https://www.artstation.com/artwork/lRWKya - Full page"
+  },
+
+  {
+    "slug": "drawing-10",
+    "title": "Virtus NEW",
+    "thumbnail": "assets/drawing10.jpg",
+    "heroImage": "assets/drawing10.jpg",
+    "description": "No Link Yet - Full page"
+  },
+
+  {
+    "slug": "drawing-11",
+    "title": "Virtus OLD",
+    "thumbnail": "assets/drawing11.jpg",
+    "heroImage": "assets/drawing11.jpg",
+    "description": "https://www.artstation.com/artwork/wJoKv9 - Full page"
   }
 ]
 
