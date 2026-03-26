@@ -6,13 +6,5 @@
     "heroImage": "assets/drawing1.jpg",
     "description": "Extended view of one of my drawings."
   }
-
-  {
-    "slug": "drawing-2",
-    "title": "Selected drawing",
-    "thumbnail": "assets/drawing2.jpg",
-    "heroImage": "assets/drawing2.jpg",
-    "description": "Extended view of one of my drawings."
-  }
 ]
 
