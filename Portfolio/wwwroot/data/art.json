@@ -45,6 +45,22 @@
     "thumbnail": "assets/drawing6.jpg",
     "heroImage": "assets/drawing6.jpg",
     "description": "https://www.artstation.com/artwork/g8lXKP - Full page"
+  },
+
+  {
+    "slug": "drawing-7",
+    "title": "Bulwark NEW",
+    "thumbnail": "assets/drawing7.jpg",
+    "heroImage": "assets/drawing7.jpg",
+    "description": "https://www.artstation.com/artwork/zxRL3m - Full page"
+  }
+
+  {
+    "slug": "drawing-8",
+    "title": "Bulwark OLD",
+    "thumbnail": "assets/drawing8.jpg",
+    "heroImage": "assets/drawing8.jpg",
+    "description": "https://www.artstation.com/artwork/KODd4W - Full page"
   }
 ]
 
