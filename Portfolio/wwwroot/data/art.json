@@ -85,6 +85,14 @@
     "thumbnail": "assets/drawing11.jpg",
     "heroImage": "assets/drawing11.jpg",
     "description": "https://www.artstation.com/artwork/wJoKv9 - Full page"
+  },
+
+  {
+    "slug": "drawing-12",
+    "title": "Hybrid Beetle",
+    "thumbnail": "assets/drawing12.jpg",
+    "heroImage": "assets/drawing12.jpg",
+    "description": "No Link Yet - Full page"
   }
 ]
 
