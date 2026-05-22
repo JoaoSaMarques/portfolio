@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CxLrgaf2U5M=",
+  "dgSpecHash": "ZWD7FCfnYT4=",
   "success": true,
   "projectFilePath": "/home/runner/work/portfolio/portfolio/Portfolio/Portfolio.csproj",
   "expectedPackageFiles": [
@@ -29,13 +29,11 @@
     "/home/runner/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.jsinterop/8.0.10/microsoft.jsinterop.8.0.10.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.jsinterop.webassembly/8.0.10/microsoft.jsinterop.webassembly.8.0.10.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.net.illink.tasks/8.0.23/microsoft.net.illink.tasks.8.0.23.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.net.sdk.webassembly.pack/10.0.2/microsoft.net.sdk.webassembly.pack.10.0.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.net.illink.tasks/8.0.27/microsoft.net.illink.tasks.8.0.27.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.net.sdk.webassembly.pack/10.0.8/microsoft.net.sdk.webassembly.pack.10.0.8.nupkg.sha512",
     "/home/runner/.nuget/packages/publishspaforgithubpages.build/3.0.1/publishspaforgithubpages.build.3.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.23/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.23.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+    "/home/runner/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.27/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.27.nupkg.sha512"
   ],
   "logs": []
 }
