@@ -2064,6 +2064,6 @@ C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/obj/Release/net8.0/ref/Port
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/refint/Portfolio.dll
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/Portfolio.pdb
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/ref/Portfolio.dll
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-d1d8apzy6l-d1d8apzy6l.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-sedk83m2k3-sedk83m2k3.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-o34v5xrygc-o34v5xrygc.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-xc7zl4a7no-xc7zl4a7no.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-b7asbn8xy1-b7asbn8xy1.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-49ejofgqi2-49ejofgqi2.gz
