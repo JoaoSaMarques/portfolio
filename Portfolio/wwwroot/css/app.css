@@ -332,7 +332,7 @@ a {
 .modal-image {
     display: block;
     width: 100%;
-    max-height: 1920px;
+    max-height: 320px;
     object-fit: cover;
     border-radius: 0.7rem;
     margin-bottom: 0.8rem;
