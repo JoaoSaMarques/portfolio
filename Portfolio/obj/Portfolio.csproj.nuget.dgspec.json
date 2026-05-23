@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/work/portfolio/portfolio/Portfolio/Portfolio.csproj": {}
+    "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\Portfolio.csproj": {}
   },
   "projects": {
-    "/home/runner/work/portfolio/portfolio/Portfolio/Portfolio.csproj": {
+    "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/work/portfolio/portfolio/Portfolio/Portfolio.csproj",
+        "projectUniqueName": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "/home/runner/work/portfolio/portfolio/Portfolio/Portfolio.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/work/portfolio/portfolio/Portfolio/obj/",
+        "projectPath": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\Portfolio.csproj",
+        "packagesPath": "C:\\Users\\UmaGa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\UmaGa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -55,13 +59,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.27, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.27, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             },
             "PublishSPAforGitHubPages.Build": {
@@ -83,7 +87,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.27, 8.0.27]"
+              "version": "[8.0.10, 8.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -91,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.421/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
