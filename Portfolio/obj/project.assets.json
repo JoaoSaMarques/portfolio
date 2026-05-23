@@ -427,13 +427,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.10": {
+      "Microsoft.NET.ILLink.Tasks/8.0.27": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.27": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -893,13 +893,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.10": {
+      "Microsoft.NET.ILLink.Tasks/8.0.27": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.27": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1766,10 +1766,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.10": {
-      "sha512": "xT8jYjlroY7SLbGtoV9vUTVW/TPgodL4Egc31a444Xe0TMytLZ3UlKQ0kxMZsy/CrWsFB6wtKnSG1SsXcWreew==",
+    "Microsoft.NET.ILLink.Tasks/8.0.27": {
+      "sha512": "rQi9TxifHRnXP7lVRZH05DxD2/XGbJp12q0ozcbrlBlBnyyzssFTH/2vLhtKWUp2CT1qVscTrcYTFiwTyKPKRg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.10",
+      "path": "microsoft.net.illink.tasks/8.0.27",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1783,7 +1783,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.27.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1817,10 +1817,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
-      "sha512": "DTJaIRCxCphhaI+7htflFVgOHbQMLprP65yRk5jlnXfkjwyo8oNwFPBZDr6/3X0YO7W77JOjnfjve2QSaYxs9g==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.27": {
+      "sha512": "fNGQd+pJZ7ihrmDf4FIaxaC7y66BGsinnd3wRBus5R2R58d5rS4oClTSH6Sh+XZPWHBaDl2JTdvpnH3sQcK+PQ==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/8.0.10",
+      "path": "microsoft.net.sdk.webassembly.pack/8.0.27",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1848,43 +1848,12 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.props",
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
-        "microsoft.net.sdk.webassembly.pack.8.0.10.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.8.0.27.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
-        "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
-        "tools/net472/Microsoft.Build.dll",
-        "tools/net472/Microsoft.IO.Redist.dll",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
-        "tools/net472/Microsoft.NET.StringTools.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
-        "tools/net472/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
-        "tools/net472/System.Buffers.dll",
-        "tools/net472/System.Collections.Immutable.dll",
-        "tools/net472/System.Configuration.ConfigurationManager.dll",
-        "tools/net472/System.Memory.dll",
-        "tools/net472/System.Numerics.Vectors.dll",
-        "tools/net472/System.Reflection.Metadata.dll",
-        "tools/net472/System.Reflection.MetadataLoadContext.dll",
-        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/net472/System.Security.AccessControl.dll",
-        "tools/net472/System.Security.Permissions.dll",
-        "tools/net472/System.Security.Principal.Windows.dll",
-        "tools/net472/System.Text.Encodings.Web.dll",
-        "tools/net472/System.Text.Json.dll",
-        "tools/net472/System.Threading.Tasks.Dataflow.dll",
-        "tools/net472/System.Threading.Tasks.Extensions.dll",
-        "tools/net472/System.ValueTuple.dll",
-        "tools/net8.0/Microsoft.Build.dll",
         "tools/net8.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
-        "tools/net8.0/Microsoft.NET.StringTools.dll",
-        "tools/net8.0/Microsoft.NET.WebAssembly.Webcil.dll",
-        "tools/net8.0/Microsoft.Win32.SystemEvents.dll",
-        "tools/net8.0/System.Configuration.ConfigurationManager.dll",
-        "tools/net8.0/System.Diagnostics.EventLog.dll",
-        "tools/net8.0/System.Drawing.Common.dll",
-        "tools/net8.0/System.Reflection.MetadataLoadContext.dll",
-        "tools/net8.0/System.Security.Cryptography.ProtectedData.dll",
-        "tools/net8.0/System.Security.Permissions.dll",
-        "tools/net8.0/System.Windows.Extensions.dll"
+        "tools/net8.0/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
     },
     "PublishSPAforGitHubPages.Build/3.0.1": {
@@ -1938,30 +1907,25 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.10",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.10",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.27",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.27",
       "PublishSPAforGitHubPages.Build >= 3.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UmaGa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "/home/runner/work/portfolio/portfolio/Portfolio/Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\Portfolio.csproj",
-      "packagesPath": "C:\\Users\\UmaGa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UmaGa\\Documents\\GitHub\\portfolioo\\Portfolio\\obj\\",
+      "projectPath": "/home/runner/work/portfolio/portfolio/Portfolio/Portfolio.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/portfolio/portfolio/Portfolio/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\UmaGa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2002,13 +1966,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.27, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.27, )",
             "autoReferenced": true
           },
           "PublishSPAforGitHubPages.Build": {
@@ -2030,7 +1994,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.10, 8.0.10]"
+            "version": "[8.0.27, 8.0.27]"
           }
         ],
         "frameworkReferences": {
@@ -2038,7 +2002,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.421/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
