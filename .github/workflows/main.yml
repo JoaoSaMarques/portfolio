@@ -45,6 +45,7 @@ jobs:
         run: |
           mkdir deploy
           cp -r publish/wwwroot/portfolio/* deploy/
+          cp deploy/Portfolio.styles.css deploy/portfolio.styles.css
 
       # 4. Push wwwroot/portfolio to main 
       - name: Deploy to main
