@@ -1,2 +1,0 @@
-/home/runner/work/portfolio/portfolio/publish/emcc-props.json
-/home/runner/work/portfolio/portfolio/publish/web.config
