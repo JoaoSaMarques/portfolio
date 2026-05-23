@@ -47,13 +47,21 @@ jobs:
           cp -r publish/wwwroot/portfolio/* deploy/
           cp deploy/Portfolio.styles.css deploy/portfolio.styles.css
 
-      # 4. Push wwwroot/portfolio to main 
+      # 4. Push wwwroot/portfolio to main
       - name: Deploy to main
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./deploy
           publish_branch: main   
+          force_orphan: true
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          publish_branch: gh-pages
           force_orphan: true
 
       - name: Delete publish
