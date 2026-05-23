@@ -2054,9 +2054,6 @@ C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/obj/Release/net8.0/ref/Port
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/hkfq988c60-{0}-tptq2av103-tptq2av103.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/0ycsysxcnt-{0}-lfu7j35m59-lfu7j35m59.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/x6vscbo5hh-{0}-oyz0vx2fzb-oyz0vx2fzb.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-py9sqg273v-py9sqg273v.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-wiwhk4ni8d-wiwhk4ni8d.gz
-/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-2y3n95lict-2y3n95lict.gz
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/staticwebassets.build.json
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/staticwebassets.build.json.cache
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/staticwebassets.development.json
@@ -2067,3 +2064,6 @@ C:/Users/UmaGa/Documents/GitHub/portfolioo/Portfolio/obj/Release/net8.0/ref/Port
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/refint/Portfolio.dll
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/Portfolio.pdb
 /home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/ref/Portfolio.dll
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/tn3vdm7lvd-{0}-d1d8apzy6l-d1d8apzy6l.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/5artj30kgc-{0}-sedk83m2k3-sedk83m2k3.gz
+/home/runner/work/portfolio/portfolio/Portfolio/obj/Release/net8.0/compressed/96a0t7eo5d-{0}-o34v5xrygc-o34v5xrygc.gz
